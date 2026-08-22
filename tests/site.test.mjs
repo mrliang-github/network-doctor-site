@@ -86,9 +86,10 @@ test("support page provides actionable help and contact", () => {
   for (const phrase of [
     "Quick Check",
     "loaded latency",
-    "Restore Purchases",
-    "Delete all history",
+    "includes every feature",
+    "no subscription, in-app purchase",
     "Product unavailable",
+    "Delete all history",
     "Do not include passwords, private keys, or unredacted network reports",
   ]) {
     assert.ok(html.includes(phrase), `support page must include: ${phrase}`);
