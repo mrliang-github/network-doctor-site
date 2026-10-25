@@ -84,11 +84,13 @@ test("privacy page matches the app data boundary", () => {
 test("support page provides actionable help and contact", () => {
   const html = read("support/index.html");
   for (const phrase of [
-    "Quick Check",
+    "Network Diagnosis",
     "loaded latency",
     "includes every feature",
     "no subscription, in-app purchase",
     "Product unavailable",
+    "Restore Purchases",
+    "keep their existing access",
     "Delete all history",
     "Do not include passwords, private keys, or unredacted network reports",
   ]) {
